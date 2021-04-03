@@ -17,3 +17,4 @@ Quick DNS Zone Transfer
  
  # A SuccessFull Zone Transfer
  
+![Capture](https://github.com/SxNade/DnsBlade/blob/main/dnsblade.png)
