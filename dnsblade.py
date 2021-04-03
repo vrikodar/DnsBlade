@@ -16,6 +16,7 @@ usage = '''
 /____/_//_/___/____/_/\_,_/\_,_/\__/ 
                                      
 	https://github.com/SxNade
+		(For Linux)
 '''
 us = 'usage :: python3 zone.py <domain>\n'
 
