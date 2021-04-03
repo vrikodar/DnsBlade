@@ -1,3 +1,4 @@
+#Author :: SxNade :: https://github.com/SxNade/DnsBlade ::: SxNade@protonmail.com
 import sys
 import time
 from termcolor import colored
