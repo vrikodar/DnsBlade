@@ -13,7 +13,7 @@ Quick DNS Zone Transfer
  
  # *Running*
  
- 
+ ![Capture](https://github.com/SxNade/DnsBlade/blob/main/DnsBlade.gif)
  
  # A SuccessFull Zone Transfer
  
