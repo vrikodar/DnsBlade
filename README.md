@@ -1,5 +1,8 @@
 # DnsBlade
-Quick DNS Zone Transfer
+
+![Capture](https://github.com/SxNade/DnsBlade/blob/main/DnsBlade.png)
+
+*Quick DNS Zone Transfer*
 
 # Installing  And Running DnsBlade
 
