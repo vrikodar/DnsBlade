@@ -6,13 +6,11 @@
 
 # Installing  And Running DnsBlade
 
-`git clone http://github.com/SxNade/DnsBlade`
+      $ git clone http://github.com/SxNade/DnsBlade
+      $ cd DnsBlade
+      $ pip3 install termcolor; pip3 install dnspython
 
-`cd DnsBlade`
-
-`pip3 install termcolor; pip3 install dnspython`
-
- `python3 dnsblade.py <Domain>`
+      $ python3 dnsblade.py <Domain>
  
  # *Running*
  
