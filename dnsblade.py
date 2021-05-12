@@ -11,6 +11,7 @@ import dns.zone
 import random
 import socket
 import os
+import re
 
 usage = '''
    ___           ___  __        __   
