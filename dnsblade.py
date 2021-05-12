@@ -21,7 +21,7 @@ usage = '''
 	https://github.com/SxNade
 		(For Linux)
 '''
-us = 'usage :: python3 zone.py <domain>\n'
+us = 'usage :: python3 dnsblade.py <domain>\n'
 
 if len(sys.argv) < 2:
 	print(colored(usage, 'red', attrs=['bold']))
