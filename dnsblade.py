@@ -64,11 +64,14 @@ print(colored("\n[+] Found Name Servers", 'green', attrs=['bold']))
 print(ns_server_list)
 print(colored("\n-----------------------------------------------------------------------------------", 'blue', attrs=['bold']))
 
-def zone_tsfr(domain, name_server):
-	os.system(f'host -l {domain} {name_server}')
+def zone_tsfr(domain, name_server_ip):
+	os.system(f'host -l {domain} {name_server_ip}')
 
-
-for dmn in ns_server_list:
-	print(colored(f"[+] Attempting Zone Transfer Against {dmn}", 'green', attrs=['bold']))
-	zone_tsfr(domain, dmn)
+for ns_name in ns_server_list:
+	store = os.popen(f"host {ns_name}").read().strip()
+	ns_name_ip_list = re.findall(r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}", store)
+	final_ip = ns_name_ip_list[0]
+	print(colored(f"[+] Attempting Zone Transfer Against {ns_name}", 'green', attrs=['bold']))
+	zone_tsfr(domain, final_ip)
 	print(colored("\n========================================================================", 'blue', attrs=['bold']))
+
