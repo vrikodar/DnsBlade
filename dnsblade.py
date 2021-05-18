@@ -1,6 +1,7 @@
 #Author :: SxNade :: https://github.com/SxNade/DnsBlade ::: SxNade@protonmail.com
 #The Code for Zone Transfers was also to be written with the support of dns library but due to some Errors with that host command is used !! YAYAYAA we can use host
 # command to also get the name servers ya i KNOw but I wanted to make it independent of host:: but due to some Errors It went Half-way Down LOL ...THIS IS IT!!
+# HEY!
 
 import sys
 import time
